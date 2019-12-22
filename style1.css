@@ -1,0 +1,44 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+.card {
+    height: 224px;
+    width: 500px;
+    border: solid 1px rgb(177, 183, 190) ;
+    border-radius: 0px 5px 5px 0px;
+    
+    
+}
+
+.img {
+    float: left;
+    padding-right: 15px;
+}
+
+.button {
+    background-color: rgb(84, 84, 211);
+    color: white;
+    padding: 10px;
+    border-radius: 0.5ex;
+    text-decoration: none;
+    
+}
+
+.text {
+    padding-right: 18px;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button:hover {
+    background-color: black;
+}
