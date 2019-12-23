@@ -1,0 +1,62 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(ex55.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.class1 {
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 240px;
+    padding-right: 240px;
+    line-height: 20px;
+}
+
+div h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+div h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+div p {
+    padding-bottom: 25px;
+}
+
+div a {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 0.5ex;
+}
+
+div a:hover {
+    background-color: red;
+    transition: 0.5s ease;
+}
